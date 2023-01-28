@@ -22,12 +22,11 @@ app.post("/api/upload",(req,res,next)=>{
 
         fs.rename(oldpath,newpath,(err)=>{
             if(err) return console.log("Error in saving file");
+            console.log("file uploaded successfully")
+            res.json({ fields, files });
         })
-
-        console.log(newpath);
-        // fs.createWriteStream()
-        res.json({ fields, files });
-      });
+        
+    });
 
 })
 

@@ -1,5 +1,5 @@
 const config = {
-    dir:"../files/js.pdf",
+    dir:"../files/durban.jpg",
     url:"http://127.0.0.1:4000"
 };
    

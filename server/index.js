@@ -25,9 +25,7 @@ app.post("/api/upload",(req,res,next)=>{
             console.log("file uploaded successfully")
             res.json({ fields, files });
         })
-        
     });
-
 })
 
 //Start Server
